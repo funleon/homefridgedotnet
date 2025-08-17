@@ -6,12 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <PropertyGroup>
-    <EnableStaticWebAsset>false</EnableStaticWebAsset>
-  </PropertyGroup>
+  
 
-  <PropertyGroup>
-    <StaticWebAssetsPrecompress>false</StaticWebAssetsPrecompress>
-  </PropertyGroup>
 
 </Project>

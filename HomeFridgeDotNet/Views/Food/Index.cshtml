@@ -52,7 +52,11 @@
                 var daysUntilExpiry = (expiryDate - today).TotalDays;
                 string backgroundColor = "";
 
-                if (daysUntilExpiry <= 3 && daysUntilExpiry >= 0)
+                if (item.UsedPercentage == 100)
+                {
+                    backgroundColor = "background-color: lightgray;";
+                }
+                else if (daysUntilExpiry <= 3 && daysUntilExpiry >= 0)
                 {
                     backgroundColor = "background-color: darkorange;";
                 }

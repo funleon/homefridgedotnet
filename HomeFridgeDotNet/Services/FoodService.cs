@@ -79,17 +79,76 @@ namespace HomeFridgeDotNet.Services
         /// <returns>匹配查詢條件的食品項目列表。</returns>
         public List<FoodItem> SearchFoods(string query)
         {
-            if (string.IsNullOrWhiteSpace(query))
+            var foods = GetAllFoods();
+
+            if (!string.IsNullOrWhiteSpace(query))
             {
-                return GetAllFoods();
+                query = query.ToLower();
+                foods = foods.Where(f =>
+                    f.Name.ToLower().Contains(query) ||
+                    f.StorageLocation.ToLower().Contains(query) ||
+                    f.ExpiryDate.ToString("yyyy-MM-dd").Contains(query)
+                ).ToList();
             }
 
-            query = query.ToLower();
-            return GetAllFoods().Where(f =>
-                f.Name.ToLower().Contains(query) ||
-                f.StorageLocation.ToLower().Contains(query) ||
-                f.ExpiryDate.ToString("yyyy-MM-dd").Contains(query)
-            ).ToList();
+            // 預設用過期日排序，時間由近至遠，已過期食品在最上方，接近過期的食品次之，其他依過期日由近至遠排序
+            var today = DateTime.Today;
+            foods = foods.OrderBy(f => f.ExpiryDate >= today ? (f.ExpiryDate - today).TotalDays : -1 * (today - f.ExpiryDate).TotalDays).ToList();
+
+            return foods;
         }
+
+        public List<FoodItem> SearchFoods(string query, string sortField, string sortOrder)
+        {
+            var foods = SearchFoods(query);
+
+            if (!string.IsNullOrEmpty(sortField))
+            {
+                foods = SortFoods(foods, sortField, sortOrder);
+            }
+
+            return foods;
+        }
+
+        private List<FoodItem> SortFoods(List<FoodItem> foods, string sortField, string sortOrder)
+{
+    if (string.IsNullOrEmpty(sortField))
+    {
+        return foods;
+    }
+
+    Func<FoodItem, object> keySelector = null;
+
+    switch (sortField.ToLower())
+    {
+        case "name":
+            keySelector = f => f.Name;
+            break;
+        case "quantity":
+            keySelector = f => f.Quantity;
+            break;
+        case "expirydate":
+            keySelector = f => f.ExpiryDate;
+            break;
+        case "storagelocation":
+            keySelector = f => f.StorageLocation;
+            break;
+        case "usedpercentage":
+            keySelector = f => f.UsedPercentage;
+            break;
+        default:
+            return foods;
+    }
+
+    if (sortOrder.ToLower() == "desc")
+    {
+        return foods.OrderByDescending(keySelector).ToList();
+    }
+    else
+    {
+        return foods.OrderBy(keySelector).ToList();
+    }
+}
+
     }
 }
