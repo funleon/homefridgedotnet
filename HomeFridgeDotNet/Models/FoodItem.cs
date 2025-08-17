@@ -51,5 +51,12 @@ namespace HomeFridgeDotNet.Models
         [StringLength(200, ErrorMessage = "備註長度不能超過200個字元。")]
         [Display(Name = "備註")]
         public string? Notes { get; set; }
+
+        /// <summary>
+        /// 取得或設定食品的使用百分比。
+        /// </summary>
+        [Range(0, 100, ErrorMessage = "使用百分比必須介於 0 到 100 之間。")]
+        [Display(Name = "已使用%")]
+        public int UsedPercentage { get; set; }
     }
 }

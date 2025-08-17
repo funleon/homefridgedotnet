@@ -10,4 +10,8 @@
     <EnableStaticWebAsset>false</EnableStaticWebAsset>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <StaticWebAssetsPrecompress>false</StaticWebAssetsPrecompress>
+  </PropertyGroup>
+
 </Project>

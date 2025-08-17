@@ -107,6 +107,12 @@ namespace HomeFridgeDotNet.Data
                             case "Notes":
                                 currentFood.Notes = value;
                                 break;
+                            case "UsedPercentage":
+                                if (int.TryParse(value, out int usedPercentage))
+                                {
+                                    currentFood.UsedPercentage = usedPercentage;
+                                }
+                                break;
                         }
                     }
                 }
@@ -178,6 +184,7 @@ namespace HomeFridgeDotNet.Data
                 {
                     sb.AppendLine($"Notes={food.Notes}");
                 }
+                sb.AppendLine($"UsedPercentage={food.UsedPercentage}");
                 sb.AppendLine(); // 空行分隔不同食品項目
             }
             File.WriteAllText(_iniFilePath, sb.ToString());
