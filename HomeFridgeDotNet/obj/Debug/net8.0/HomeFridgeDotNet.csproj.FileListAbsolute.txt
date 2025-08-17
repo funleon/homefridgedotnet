@@ -27,3 +27,4 @@ D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\HomeFridgeDotNet.
 D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\HomeFridgeDotNet.genruntimeconfig.cache
 D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\ref\HomeFridgeDotNet.dll
 D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\HomeFridgeDotNet.sourcelink.json

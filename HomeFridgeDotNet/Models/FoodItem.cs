@@ -50,6 +50,6 @@ namespace HomeFridgeDotNet.Models
         /// </summary>
         [StringLength(200, ErrorMessage = "備註長度不能超過200個字元。")]
         [Display(Name = "備註")]
-        public string Notes { get; set; }
+        public string? Notes { get; set; }
     }
 }
