@@ -46,7 +46,22 @@
     <tbody>
         @foreach (var item in Model)
         {
-            <tr>
+            
+                var today = DateTime.Today;
+                var expiryDate = item.ExpiryDate.Date;
+                var daysUntilExpiry = (expiryDate - today).TotalDays;
+                string backgroundColor = "";
+
+                if (daysUntilExpiry <= 3 && daysUntilExpiry >= 0)
+                {
+                    backgroundColor = "background-color: darkorange;";
+                }
+                else if (daysUntilExpiry < 0)
+                {
+                    backgroundColor = "background-color: red;";
+                }
+            
+            <tr style="@backgroundColor">
                 <td>
                     @Html.DisplayFor(modelItem => item.Name)
                 </td>
