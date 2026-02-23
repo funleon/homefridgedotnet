@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\homefridgedotnet\\HomeFridgeDotNet\\HomeFridgeDotNet.csproj": {}
+    "d:\\Projects\\homefridgedotnet\\HomeFridgeDotNet\\HomeFridgeDotNet.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\homefridgedotnet\\HomeFridgeDotNet\\HomeFridgeDotNet.csproj": {
+    "d:\\Projects\\homefridgedotnet\\HomeFridgeDotNet\\HomeFridgeDotNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\homefridgedotnet\\HomeFridgeDotNet\\HomeFridgeDotNet.csproj",
+        "projectUniqueName": "d:\\Projects\\homefridgedotnet\\HomeFridgeDotNet\\HomeFridgeDotNet.csproj",
         "projectName": "HomeFridgeDotNet",
-        "projectPath": "D:\\Projects\\homefridgedotnet\\HomeFridgeDotNet\\HomeFridgeDotNet.csproj",
+        "projectPath": "d:\\Projects\\homefridgedotnet\\HomeFridgeDotNet\\HomeFridgeDotNet.csproj",
         "packagesPath": "C:\\Users\\10790\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\homefridgedotnet\\HomeFridgeDotNet\\obj\\",
+        "outputPath": "d:\\Projects\\homefridgedotnet\\HomeFridgeDotNet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
