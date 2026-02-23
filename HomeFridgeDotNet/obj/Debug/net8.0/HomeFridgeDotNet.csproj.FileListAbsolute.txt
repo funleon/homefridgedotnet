@@ -7,6 +7,7 @@ D:\Projects\homefridgedotnet\HomeFridgeDotNet\bin\Debug\net8.0\HomeFridgeDotNet.
 D:\Projects\homefridgedotnet\HomeFridgeDotNet\bin\Debug\net8.0\HomeFridgeDotNet.runtimeconfig.json
 D:\Projects\homefridgedotnet\HomeFridgeDotNet\bin\Debug\net8.0\HomeFridgeDotNet.dll
 D:\Projects\homefridgedotnet\HomeFridgeDotNet\bin\Debug\net8.0\HomeFridgeDotNet.pdb
+D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\rpswa.dswa.cache.json
 D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\HomeFridgeDotNet.GeneratedMSBuildEditorConfig.editorconfig
 D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\HomeFridgeDotNet.AssemblyInfoInputs.cache
 D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\HomeFridgeDotNet.AssemblyInfo.cs
@@ -14,6 +15,10 @@ D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\HomeFridgeDotNet.
 D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\HomeFridgeDotNet.MvcApplicationPartsAssemblyInfo.cache
 D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\HomeFridgeDotNet.RazorAssemblyInfo.cache
 D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\HomeFridgeDotNet.RazorAssemblyInfo.cs
+D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\HomeFridgeDotNet.sourcelink.json
+D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\scopedcss\bundle\HomeFridgeDotNet.styles.css
 D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\scopedcss\projectbundle\HomeFridgeDotNet.bundle.scp.css
@@ -26,8 +31,3 @@ D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\refint\HomeFridge
 D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\HomeFridgeDotNet.pdb
 D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\HomeFridgeDotNet.genruntimeconfig.cache
 D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\ref\HomeFridgeDotNet.dll
-D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\HomeFridgeDotNet.sourcelink.json
-D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\rpswa.dswa.cache.json
-D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\rjimswa.dswa.cache.json
-D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
-D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
