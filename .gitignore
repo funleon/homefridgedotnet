@@ -15,16 +15,11 @@
 # NuGet
 *.nupkg
 *.snupkg
-/packages/
-!/packages/build/
 
 # Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
-
-# Excel temp files (if opened)
-~$*.xlsx
 
 # Temporary files
 *.log
@@ -36,12 +31,6 @@ homefridgedotnet.code-workspace
 GEMINI.md
 .brain
 
-# PublishOutput
-PublishOutput
-Release
-bin
-obj
-Dist
 
 
 # Personal

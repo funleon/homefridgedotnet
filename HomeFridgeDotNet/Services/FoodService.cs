@@ -117,7 +117,7 @@ namespace HomeFridgeDotNet.Services
         return foods;
     }
 
-    Func<FoodItem, object> keySelector = null;
+    Func<FoodItem, object> keySelector;
 
     switch (sortField.ToLower())
     {
