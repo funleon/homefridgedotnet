@@ -26,5 +26,8 @@ D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\refint\HomeFridge
 D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\HomeFridgeDotNet.pdb
 D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\HomeFridgeDotNet.genruntimeconfig.cache
 D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\ref\HomeFridgeDotNet.dll
-D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\HomeFridgeDotNet.sourcelink.json
+D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Projects\homefridgedotnet\HomeFridgeDotNet\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
