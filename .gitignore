@@ -1,6 +1,6 @@
 # Build Results
-!/HomeFridgeDotNet/bin/
-!/HomeFridgeDotNet/obj/
+/HomeFridgeDotNet/bin/
+/HomeFridgeDotNet/obj/
 
 # Visual Studio
 .vs/
