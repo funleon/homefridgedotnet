@@ -1,6 +1,6 @@
 # Build Results
-/bin/
-/obj/
+/HomeFridgeDotNet/bin/
+/HomeFridgeDotNet/obj/
 
 # Visual Studio
 .vs/
