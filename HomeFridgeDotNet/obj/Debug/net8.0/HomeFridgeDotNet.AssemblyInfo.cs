@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HomeFridgeDotNet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab0ea8bba7301f241884a196a620ad369e3629dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c547ddf0db8428c91fc34a42c1cec8a04c8f1d5b")]
 [assembly: System.Reflection.AssemblyProductAttribute("HomeFridgeDotNet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HomeFridgeDotNet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
